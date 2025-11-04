@@ -34,7 +34,7 @@ const LoginModal = ({ onLogin, onClose }) => {
                 onClick={(e) => e.stopPropagation()}
             >
                 {/* Header con gradiente */}
-                <div className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 rounded-t-2xl p-6 relative overflow-hidden">
+                <div className="bg-gradient-to-r from-purple-950 via-teal-500 to-purple-500 rounded-t-2xl p-6 relative overflow-hidden">
                     <div className="absolute inset-0 bg-black/10"></div>
                     
                     {/* Botón X corregido */}
@@ -135,7 +135,7 @@ const LoginModal = ({ onLogin, onClose }) => {
                         <button 
                             type="submit" 
                             disabled={isLoading}
-                            className="w-full bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98] shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
+                            className="w-full bg-gradient-to-r from-purple-800 to-teal-500 hover:from-purple-950 hover:to-teal-600 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98] shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
                         >
                             {isLoading ? (
                                 <>
@@ -166,7 +166,7 @@ const LoginModal = ({ onLogin, onClose }) => {
 
                     {/* Link adicional */}
                     <div className="mt-6 text-center">
-                        <a href="#" className="text-sm text-gray-600 hover:text-orange-500 transition-colors duration-200 font-medium">
+                        <a href="#" className="text-sm text-gray-600 hover:text-purple-950 transition-colors duration-200 font-medium">
                             ¿Olvidaste tu contraseña?
                         </a>
                     </div>
